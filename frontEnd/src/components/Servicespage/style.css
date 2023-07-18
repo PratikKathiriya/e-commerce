@@ -1,0 +1,322 @@
+.firstImg{
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.serviceText{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 37px 37px 0px 0px ;
+    position: absolute;
+    transform: translate(130%, -99%);
+}
+
+.serviceText h1{
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.plan:hover {
+    background-color: #F4F0EC;
+    border-radius: 50PX;
+}
+
+.plan:hover .planbutton{
+    color: #CDA274;
+}
+
+.serviceText h1 span {
+    font-size: 22px;
+    color: #4D5053;
+}
+
+ .plan{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+ }
+
+ .plan h5{
+    font-family: "JOST";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25PX;
+    padding-bottom: 20px;
+ }
+
+ .plan h6{
+    font-size: 17px;
+    line-height: 25px;
+    color: #4D5053;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+ .plan a{   
+    text-decoration: none;
+    color: #4D5053;
+    font-weight: 600;
+ }
+
+ .arrow {
+    color: #ce8f4d;
+    padding: 3px;
+ }
+ .howWeWorkh1{
+    font-family: 'jost';
+    font-size: 60px;
+    font-weight: 700;
+ }
+
+ .howWeWorkp{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+ }
+
+ .howWeWorktext{
+    margin-bottom: 100px;
+ }
+
+ .plans{
+    margin-top: 100px;
+ }
+ .howWeWork{
+    margin-top:100px;
+    margin-bottom: 100x;
+    padding:150px 100px;
+    background-color: #F4F0EC;
+    border-radius: 70px;
+ }
+ .workImg{
+    width: 100%;
+    border-radius: 0px 130px 0px 300px;
+}
+ .iconAndNumber{
+    margin-bottom: 30px;
+ }
+
+ .conceptName{
+    font-size: 35px;
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .textofWorks h5{
+    font-size: 15px;
+    font-weight: 600;
+ }
+
+ .number{
+    font-size: 120px;
+    font-family: 'jost';
+    font-weight: 600;
+    color: white;
+ }
+ .textofWorks{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+.Join {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 280px;
+ background-color: #292F36;
+ border-radius: 70px;
+}
+.Join h1{
+    font-family: 'jost';
+    font-weight: 600;
+}
+
+.Join button{
+    background-color: #CDA274;
+    width: 200px;
+    margin-top: 30px;
+    height: 70px;
+    border: 0px solid transparent;
+    border-radius: 18px;
+    color: white;
+    box-shadow:  0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 700;
+}
+
+
+ @media only screen and (max-width:1235px){
+    .serviceText{
+        width: 285px;
+        height: 120px;
+        transform: translate(160% ,-99%);
+    }
+    .serviceText h1{
+        font-size: 40px;
+    }
+ }
+
+ @media only screen and (max-width:1024px){
+    .serviceText{
+        width: 235px;
+        height: 100px;
+    }
+    .serviceText h1{
+        font-size: 30px;
+    }
+    .serviceText h6{
+        font-size: 12px;
+    }
+    .plan h6{
+        font-size: 15px;
+    }
+    .workImg{
+        border-radius: 0px 70px 0px 180px;
+    }
+    .number{
+        font-size: 70px;
+
+    }
+    .Iconimg{
+        width: 70px;
+    }
+    .conceptName{
+        font-size: 25px;
+    }
+    .textofWorks{
+        font-size: 13px;
+    }
+ }
+
+ @media only screen and (max-width:769px){
+    .serviceText{
+        width: 177px;
+        height: 80px;
+        padding: 20px;
+    }
+    .serviceText h1{
+        font-size: 25px;
+    }
+    .plan h6{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .plan h5{
+        font-size: 20px;
+    }
+    .plan{
+        height: 250px;
+    }
+    .plan a{
+        font-size: 12px;
+    }
+    .workImg{
+        border-radius: 0px 60px 0px 140px;
+    }
+    .number{
+        font-size: 50px;
+
+    }
+    .Iconimg{
+        width: 50px;
+    }
+    .conceptName{
+        font-size: 20px;
+    }
+    .textofWorks h5{
+        font-size: 13px;
+    }
+ }
+
+ @media only screen and (max-width:426px){
+    .firstImg{
+        height: 120px;
+    }
+    .serviceText{
+        padding: 10px;
+        width: 200px;
+        height: 60px;
+        transform: translate(100px,-99%);
+        }
+        .plan h6{
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .plan h5{
+            font-size: 30px;
+        }
+        .plan{
+            height: 250px;
+        }
+        .plan a{
+            font-size: 17px;
+        }
+        .arrow{
+            padding: 1px;
+        }
+        .workImg{
+            border-radius: 0px 70px 0px 180px;
+            width: 400px;
+        }
+        .number{
+            font-size: 70px;
+    
+        }
+        .Iconimg{
+            width: 70px;
+        }
+        .conceptName{
+            font-size: 25px;
+        }
+        .textofWorks{
+            font-size: 13px;
+        }
+        .howWeWork{
+            margin-top: 60px;
+            margin-bottom: 60px;
+            padding: 70px 15px;
+        }
+ }
+
+ @media only screen and (max-width:376px){
+    .firstImg{
+        height: 70px;
+    }
+    .serviceText{
+        padding: 5px;
+        transform: translate(70px, -99%);    
+    }
+    .plan h5{
+        font-size: 25px;
+    }
+    .workImg{
+        border-radius: 0px 70px 0px 180px;
+        width: 350px;
+    }
+ }
+
+ @media only screen and (max-width:326px){
+    .serviceText{
+        padding: 3px;
+        transform: translate(50px, -100%);
+    }
+    .workImg{
+        border-radius: 0px 70px 0px 180px;
+        width: 300px;
+    }
+    .Join button{
+        width: 150px;
+
+        height: 50px;
+        font-size: 15px;
+    } 
+ }

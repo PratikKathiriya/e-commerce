@@ -1,0 +1,52 @@
+.footer-icons{
+    width: 250px;
+    margin-left:-25px ;
+}
+
+.f-icon-three{
+    font-size: 20px;
+    color:#292F36;
+    font-weight: 700;
+}
+
+.footer-first li p {
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.footer-second li{
+    padding: 15px 0px;
+    font-size: 19px;
+}
+
+.footer-three li{
+    padding: 15px 0px;
+    font-size: 19px;
+}
+
+.footer-four li{
+    padding: 15px 0px;
+    font-size: 19px;
+}
+
+.footer-second li  a{
+ text-decoration: none;
+ color:#292f36;   
+}
+
+.footer-three li a{
+text-decoration: none;
+color:#292f36;
+}
+
+.footer-four li a{
+    text-decoration: none;
+    color:#292f36;
+    
+}
+
+.footer h5{
+font-family: 'jost';
+font-weight: 800;
+
+}

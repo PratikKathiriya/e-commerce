@@ -1,0 +1,72 @@
+.errorimg{
+    width: 100%;
+    border-radius: 0px 0px 0px 300px;
+    height: 100vh;
+}
+
+
+.errortext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.errorbutton{
+    width: 150px;
+    background-color: #292F36;
+    border: 0px  solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.errorbigtext{
+   font-size: 150px;
+   font-weight: 700; 
+   color: #CDA274;
+}
+
+.errorsmalltext{
+    font-size: 30px;
+    font-family: "jost";
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1025px) {
+    .errorimg{
+        border-radius: 0px 0px 0px 150px;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .errorbigtext{
+        font-size: 70px;
+    }
+    .errorsmalltext{
+        font-size: 20px;
+    }
+    .errorbutton{
+        width: 120px;
+        padding: 6px;
+        font-size: 15px;
+    }
+    .errorimg{
+        border-radius: 0px 0px 0px 100px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .errortext{
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .errorimg{
+        height: 400px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+}

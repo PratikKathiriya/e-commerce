@@ -1,0 +1,113 @@
+.firstimg{
+    width: 100%;
+}
+
+
+
+
+.data tr {
+    line-height: 40px;
+}
+
+.data tr th{
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.data {
+background-color: #F4F0EC;   
+padding: 30px ;
+border-radius: 70px; 
+}
+
+.details h1{
+    font-family: 'jost';
+    font-weight: 600;
+}
+
+.details p{
+    text-align: justify;
+}
+
+
+.searchbutton{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0px solid transparent;
+}
+
+.search{
+ color: #CDA274;
+}
+
+
+.searchmaindiv{
+    background-image: url("../../../public/images/Projectdetailimg/Photo.png");
+    height: 600px;
+    width: 100%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width:1235px){
+    .data{
+        height: 270px;
+        border-radius: 50px;
+    }
+    .data tr th {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:1025px){
+    .data tr th {
+
+        padding-right: 50px;
+    }
+}
+
+@media only screen and ( max-width:769px){
+    .data tr th {
+        padding-right: 10px;
+    }
+    .data tr  {
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .firstimg{
+        height: 110px;
+    }
+    .data tr th {
+        padding-right: 80px;
+    }
+    .data tr {
+        line-height: 45px;
+    }
+    .data{
+        padding: 15px;
+        margin-right: 10px;
+    }
+    .searchmaindiv{
+        background-size: cover;
+        height: 300px;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (max-width:326px){
+    .data tr{
+        line-height: 40px;
+    }
+
+    .searchmaindiv{
+        height: 200px;
+    }
+}
+
+        

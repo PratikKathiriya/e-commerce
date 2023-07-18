@@ -1,0 +1,273 @@
+.firstimg{
+    width: 100%;
+ }
+
+ .ProfessionalsingleText{
+    background-color: white;
+    width: 400px;
+    border-radius: 37px 37px 0px 0px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -130px;
+ }
+
+ .ProfessionalsingleText h1{
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .firstSection{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+ }
+  
+ .teamsingleimg{
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+ }
+
+ .icons{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: -30px;
+ }
+
+ .professionaljob{
+    font-weight: normal;
+    color: #4D5053;
+ }
+
+ .professionalname{
+    font-family: "jost";
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 80px;
+    line-height: 60px;
+ }
+
+ .professionalparagraph{
+    text-align: justify;
+    padding-top: 30px;
+ }
+
+ .iconandname{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+ }
+
+ .iconbutton{
+    border: 0px solid transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F4F0EC;
+    color: #CDA274;
+ }
+
+ .iconnames{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+ }
+
+ .range-container {
+   position: relative;
+ }
+ 
+ .rangeinput {
+   width: 100%;
+ }
+
+ .rangeinput::-webkit-slider-thumb {
+  background-color: #CDA274;
+ }
+ .rangeinput::-moz-range-thumb {
+  background-color: #CDA274;
+ }
+ .rangeinput::-ms-thumb {
+  background-color: #fff  ;
+ }
+ 
+  
+
+
+
+ .range-value-one {
+   position: absolute;
+   top: -40px;
+   left: 65%; 
+   transform: translateX(-50%);
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #fff;
+   border: 0px solid #ccc;
+   border-radius: 4px;
+   font-weight: 600;
+   color: #CDA274;
+ }
+
+ .range-value-two {
+   position: absolute;
+   top: -40px;
+   left: 95%;
+   transform: translateX(-50%);
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #fff;
+   border: 0px solid #ccc;
+   border-radius: 4px;
+   font-weight: 600;
+   color: #CDA274;
+ }
+ .range-value-three {
+   position: absolute;
+   top: -40px;
+   left: 75%;
+   transform: translateX(-50%);
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #fff;
+   border: 0px solid #ccc;
+   border-radius: 4px;
+   font-weight: 600;
+   color: #CDA274;
+ }
+
+ 
+ .titleofbiography{
+   font-family: "jost";
+   font-weight: 600;
+   font-size: 50px;
+ }
+
+ .paragraaphofbiography{
+   text-align: justify;
+   font-weight: normal;
+ }
+
+ .titleofrange{
+   font-family: "jost";
+   font-weight: 600;
+   font-size: 30px;
+ }
+
+
+ .paragraphofrange{
+   text-align: justify;
+ }
+
+ .rangetitle{
+   font-weight: normal;
+   font-size: 20px;
+ }
+ 
+ .questionandanswer1{
+   border: 2px solid #CDA274;
+   padding: 12px;
+   border-radius: 18px;
+   align-items: center;
+   margin-bottom: 20px;
+   width: 100%;
+ }
+
+ .question1{
+   font-size: 20px;
+   font-weight: 700;
+ }
+ .content1{
+  color: black;
+  display: block;
+ }
+ 
+ .answerbutton1{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   font-weight: 900;
+   font-size: 20px;
+   background-color: #F4F0EC;
+   border: 0px solid transparent;
+ }
+
+ 
+
+ @media only screen and (max-width:1235px){
+   .professionalname{
+      margin-top: 10px;
+   }
+ }
+ @media only screen and (max-width:1025px){
+    .ProfessionalsingleText{
+        height: 110px;
+        margin-top: -110px;
+        width: 370px;
+    }
+    .professionalparagraph{
+      padding-top: 10px;
+    }
+    .iconandname{
+      margin-top: 10px;
+    }
+    .iconbutton{
+      width: 40px;
+      height: 40px;
+    }
+ }
+
+ @media only screen and (max-width:769px){
+    .ProfessionalsingleText{
+        height: 100px;
+        margin-top: -100px;
+        width: 350px;
+    }
+    .professionalname{
+      font-size: 25px;
+      line-height: 25px;
+    }
+    .professionaljob{
+      font-size: 15px;
+    }
+    .professionalparagraph{
+      padding-top: 0px;
+      font-size: 13px;
+    }
+    .icons{
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+ }
+
+ @media only screen and (max-width:426px){
+    .ProfessionalsingleText{
+        height: 70px;
+        margin-top: -70px;
+        width: 280px;
+    }
+ }
+
+ @media only screen and (max-width:376px){
+    .ProfessionalsingleText{
+        height: 60px;
+        margin-top: -60px;
+        width: 250px;
+    }
+
+    .ProfessionalsingleText h1{
+        font-size: 20px;
+    }
+
+    .ProfessionalsingleText h6{
+        font-size: 15px;
+    }
+    .firstimg{
+        height: 100px;
+    }
+ }
+

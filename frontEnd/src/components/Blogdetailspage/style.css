@@ -1,0 +1,221 @@
+.firstimg{
+    width: 100%;
+ }
+
+ .maintitle{
+    font-family: "jost";
+    font-weight: 600;
+    font-size: 50px;
+ }
+ 
+ .firstimgofdetail,
+ .secondimgofdetail{
+    width: 100%;
+    border-radius: 70px;
+ }
+
+ .date,
+ .type{
+    font-size: 15px;
+    color: #4D5053;
+    font-weight: normal;
+ }
+
+ .paragraphone{
+
+    font-size: 17px;
+    font-weight: normal;
+    
+ }
+
+ .notes{
+    list-style: decimal;
+    padding-top: 15px;
+    font-size: 17px;
+ }
+
+ .icons li {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 40px;
+ }
+
+ .tags h3{
+    margin-right: 10px;
+    /* padding-right: 10px; */
+    font-family: "jost";
+    font-weight: 600;
+ }
+
+ .buttonforkitchen{
+    border: 0px solid transparent;
+    color: white;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #292F36;
+    border-radius: 10px;
+ }
+
+ .buttonforbedroom{
+    border: 0px solid transparent;
+    color: #292F36;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #F4F0EC;
+    border-radius: 10px;
+ }
+
+ .formtext{
+    font-family: "jost";
+    font-weight: 600;
+ }
+
+ .email{
+    padding-left: 20px;
+ }
+
+ .nameform input,
+ .email input{
+    width:360px;
+    border: 0px solid transparent;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    height: 50px;
+ }
+
+ .textarea{
+    margin-top: 30px;
+    width: 100%;
+    border: 0px solid transparent;
+    border-bottom: 1px solid black;
+ }
+
+ .formbutton{
+    border: 0px solid transparent;
+    padding: 12px;
+    color: white;
+    background-color: #292F36;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 50px;
+ }
+
+ .Searchbuttonofblogdetail{
+   width: 100%;
+   height: 70px;
+   padding: 30px;
+   font-size: 20px;
+   border: 0px solid transparent;
+   background-color: #F4F0EC;
+   border-radius: 20px;
+   
+ }
+
+ .maintitletwo{
+   font-family: "jost";
+   font-weight: 600;
+   font-size: 32px;
+ }
+
+ .titles {
+   font-family: "jost";
+   font-weight: 600;
+   font-size: 18px;
+ }
+
+ .titlesdate{
+   font-size: 17px;
+   font-weight: normal;
+ }
+
+ .categories{
+   background-color: #F4F0EC;
+   /* padding: 20px; */
+   border-radius: 30px;
+ }
+
+ .Categoriestitle{
+   font-family: "jost";
+   font-weight: 600;
+ }
+
+ .borderbottomofcategories{
+
+   border-bottom: 1px solid #CDA274;
+ 
+ }
+
+ .categories li {
+   font-weight: normal;
+   padding-top: 17px;
+   padding-bottom: 20px;
+   font-size: 17px;
+ }
+
+ .buttonsofcat{
+   padding : 6px 27px 6px 27px;
+   border-radius: 7px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   border: 0px solid ;
+   font-weight: normal;
+   font-size: 13px;
+   transition-property: all;
+   transition-duration: 0.3s;
+ }
+
+ .buttonsofcat:hover{
+   background-color: #292F36;
+   color: #F4F0EC;
+ }
+
+ @media only screen and (max-width:1235px){
+    .nameform input,
+    .email input{
+        width: 310px;
+    }
+ }
+
+ @media only screen and (max-width:1025px){
+    .nameform input,
+    .email input{
+        width: 260px;
+    }
+ }
+
+ @media only screen and (max-width:769px){
+    .nameform input,
+    .email input{
+        width: 190px;
+        font-size: 17px;
+    }
+    .icons li {
+        padding-left: 0px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+    .firstimgofdetail,
+    .secondimgofdetail{
+        border-radius: 20px;
+    }
+    .maintitle{
+        font-size: 30px;
+    }
+ }
+
+ @media only screen and (max-width:426px){
+ 
+ }
+
+ @media only screen and (max-width:376px){
+    .nameform input,
+    .email input{
+        width: 100%;
+    }
+    .paragraphone{
+        text-align: justify;
+    }
+ }
+

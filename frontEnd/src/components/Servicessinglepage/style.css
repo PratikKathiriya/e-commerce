@@ -1,0 +1,239 @@
+ .firstimg{
+    width: 100%;
+ }
+
+ .servicesingleText{
+    background-color: white;
+    width: 400px;
+    border-radius: 37px 37px 0px 0px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -130px;
+ }
+
+ .servicesingleText h1{
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .firstSection{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+ }
+  
+
+ .secondPeragraph{
+    text-align: justify;
+ }
+
+ .secondPeragraph p {
+    font-weight: 500;
+ }
+
+ .secondPeragraph :first-child{
+    color: #CDA274;
+ }
+ .secondsection h1{
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 45px;
+ } 
+
+ .secondsection{
+    margin-top: 150px;
+    margin-bottom: 150px;
+ }
+
+ .brands{
+    margin-bottom: 100px ;
+ }
+
+ .whatWedo{
+        list-style: none;
+        margin-left: 150px;
+    }
+
+ .whatWedo h2{
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .whatWedo li{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+ }
+
+ .whatWedo li span{
+    font-weight: 600;
+    font-family: 'jost';
+    color: #CDA274;
+ }
+
+ .lovedesign img {
+    width: 100%;
+    border-radius: 50px;
+ }
+
+ .lovedesign h1{
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .lovedesign button{
+    border: 0px solid transparent;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    background-color:#292F36;
+    color: white;
+    font-weight: 600;
+ }
+
+ .arrow{
+    color: #CDA274;
+    padding: 2px;
+ }
+
+ .stateticts{
+    background-color: #F4F0EC;
+   padding-top: 100px;
+   padding-bottom: 100px;
+    margin-bottom: 100px;   
+}
+
+ .stateticts h1{
+   font-size: 70px;
+    font-family: 'jost';
+    font-weight: 600;
+    color: #CDA274;
+}
+
+ .stateticts li {
+    padding: 0px 50px 0px 50px;
+ }
+
+ .borderOfstateticts{
+    height: 130px;
+    border-right: 1px solid #CDA274;
+ }
+
+ @media only screen and (max-width:1240px){
+    .lovedesign h1{
+        font-size: 33px;
+    }
+ }
+
+ @media only screen and (max-width:1025px){
+    .servicesingleText{
+        height: 110px;
+        margin-top: -110px;
+        width: 370px;
+    }
+    .lovedesign p {
+        font-size: 12px;
+    }
+    .lovedesign h1{
+        font-size: 27px;
+    }
+    .lovedesign button{
+        width: 150px;
+    }
+ }
+
+ @media only screen and (max-width:769px){
+    .servicesingleText{
+        height: 100px;
+        margin-top: -100px;
+        width: 350px;
+    }
+    .brands li img {
+        width: 100px;
+    }
+   
+    .lovedesign p {
+        font-size: 12px;
+    }
+    .lovedesign h1{
+        font-size: 18px;
+    }
+    .lovedesign button{
+        width: 100px;
+        font-size: 10px;
+        height: 40px;
+    }
+ }
+
+ @media only screen and (max-width:426px){
+    .servicesingleText{
+        height: 70px;
+        margin-top: -70px;
+        width: 280px;
+    }
+
+    .secondsection{
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+    .brands li img {
+        width: 100px;
+        margin-top: 50px;
+    }
+    .whatWedo{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .whatWedo li{
+        text-align: left;
+        padding-left: 50px;
+    }
+    .whatWedo{
+        margin-left: 0px;
+    }
+    .lovedesign{
+        text-align: center;
+    }
+    .lovedesign h1{
+        font-size: 28px;
+    }
+    .lovedesign p{
+        font-size: 15px;
+    }
+    .lovedesign button{
+        width: 150px;
+        font-size: 15px;
+    }
+    .borderOfstateticts{
+        border-right: 0px ;
+        margin-bottom: 30px;
+    }
+ }
+
+ @media only screen and (max-width:376px){
+    .servicesingleText{
+        height: 60px;
+        margin-top: -60px;
+        width: 250px;
+    }
+
+    .servicesingleText h1{
+        font-size: 20px;
+    }
+
+    .servicesingleText h6{
+        font-size: 15px;
+    }
+    .firstimg{
+        height: 100px;
+    }
+ }
+
+ @media only screen and (max-width:320px){
+    .whatWedo li {
+        padding-left: 30px;
+    }
+ }

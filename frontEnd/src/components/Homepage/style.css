@@ -1,0 +1,636 @@
+.first-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-bottom-left-radius: 300px;
+}
+
+.first-text{
+    position: absolute;
+    transform: translate(340px, -550px);
+}
+
+.first-text h1{
+    font-size: 70px;
+    font-family: 'jost';
+    font-weight: 700;
+}
+
+.first-text button{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.arrow{
+    color:#cda274;
+    padding: 3px;
+}
+
+.plans{
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.plans h5{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.plans p {
+    font-size: 18px;
+    font-weight: 900px;
+    margin-bottom: 40px;
+}
+
+.plans a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+}
+
+.second-img {
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 150px;
+    height: 620px;
+}
+
+.thirdBigText{
+    font-size: 55px;
+    font-family: 'jost';
+    font-weight: 700;
+}
+
+.thirdParagraph{
+    font-size: 20px;
+}
+
+.call h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call button{
+    color: #cda274;
+    width: 55px;
+    height: 55px;
+    border-radius:50% ;
+    border: 0px solid transparent;
+    background-color: #f4f0ec;
+}
+
+.call h4 span{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.callNumber{
+    padding-left: 20px;
+}
+
+.buttonFree{
+    width: 250px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+
+.sectionFour{
+    background-color: #f4f0ec;
+    border: 0px solid transparent;
+    border-radius: 50px;
+}
+
+.cardOfUser{
+    background-color: white;
+    width: 370px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.user-img{
+    width: 60px;
+    border-radius: 50%; 
+}
+
+.name h4{
+    padding-left: 20px;
+}
+.name h4 span{
+    font-size: 15px;
+}
+
+.cardOfUser p{
+    font-size: 20px;
+}
+
+.hone{
+    font-family: 'jost';
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.brands{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+.nameButton{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.projectImg{
+    width: 430px;
+}   
+
+.nameOfProject{
+    width: 430px;
+}
+.nameOfProject h4{
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nameOfProject h6{
+    color:#4D5053;    ;
+    margin-top: -4px;
+    line-height: 12px;
+    font-size: 15px;
+}
+
+.nameOfProject button{
+    padding: 5px;
+    border: 0px solid  transparent;
+    color: #292f36;
+    background-color: #f4f0ec;
+}
+ 
+.Projects  h1{
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.Projects p{
+    font-size: 22px;
+}
+
+.stateticts{
+    align-content: center;
+    background: #f4f0ec;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.stateticts li {
+    padding:10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 130px;
+}
+
+.borderOfstateticts{
+    border-right: 2px solid #cda274;
+}
+
+.stateticts li h1 {
+    font-size: 80px;
+    font-family: 'jost';
+    font-weight: 600;
+    color: #cda274;
+}
+
+.newsCard{
+    border: 0.1px solid rgb(222, 222, 222);
+    border-radius: 55px;
+    width: 300px;
+    height: 410px;
+    padding: 13px;
+}
+
+.news-img{
+    width: 270px;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+}
+
+.news-button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0px solid;
+}
+
+.newsCard h4{
+    font-family: 'jost';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.joinContact{
+    width: 1000px;
+    background-color: #292f36;
+    border-radius: 50px;
+    height: 250px;
+    color: white;
+}
+
+.joinContact h1{
+    font-family: 'jost';
+    font-weight: 600;
+}
+
+.joinContact h6{
+    font-size: 15px;
+}
+
+.joinContact button{
+    width: 200px;
+    padding: 10px;
+    font-weight: 600;
+    background: #cda274;
+}
+
+.arrowlast{
+    padding: 3px;
+}
+
+#marginright{
+    margin-right: 100px;
+}
+
+@media only screen and (max-width:1240px){
+    .plans h5{
+        font-size:25px
+    }
+    .plans p{
+        font-size:17px;
+    }
+    .thirdBigText{
+        font-size: 45px;
+    }
+    .thirdParagraph{
+        font-size: 19px;
+    }
+    .buttonFree{
+        width: 200px;
+    }
+    .second-img{
+        width: 500px;
+        height: 600px;
+        border-top-right-radius: 200px;
+    }
+    .hone{
+        font-size: 55px;
+    }
+    .name h4{
+        font-size: 17px;
+    }
+    .cardOfUser p{
+        font-size: 17px;
+    }
+    .Projects h1{
+        font-size: 40px;
+    }
+    .Projects p{
+        font-size: 15px;
+    }
+    .newsCard {
+        width: 250px;
+        padding: 10px;
+        height: 370px;
+    }
+    .news-img{
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width:1196px){
+    .plans p {
+        font-size: 15px;
+    }
+    .thirdParagraph{
+        font-size: 17px;
+    }
+    .cardOfUser p{
+        font-size: 15px;
+    }
+    .projectImg{
+        width: 300px;
+    }
+    .nameOfProject{
+        width: 300px;
+    }
+    .nameButton{
+        width: 40px;
+        height: 40px;
+    }
+    .arrowbutton{
+        padding: 3px;
+    }
+    .nameOfProject h4{
+        font-size: 20px;
+    }
+    .nameOfProject h6{
+        font-size: 13px;
+    }
+    .newsCard {
+        width: 230px;
+        padding: 10px;
+        height: 330px;
+    }
+    .news-img{
+        width: 210px;
+    }
+    .newsCard h4{
+        font-size: 20px;
+    }
+    .joinContact{
+        width: 800px;
+    }
+}
+
+/* @media only screen and(max-width:1025px){
+    .second-img{
+        width: 300px;
+        height: 200px;
+    }
+} */
+
+@media only screen and (max-width:1028px){
+    .second-img{
+        width: 450px;
+        height: 500px;
+        border-top-right-radius:150px;
+        border-bottom-left-radius:50px;
+    }
+}
+
+@media only screen and (max-width:995px){
+    .first-text h1{
+        font-size: 50px;
+    }
+
+    .first-img{
+        border-radius: 100px;
+    }
+
+    .first-text{
+        transform: translate(200px,-410px);
+    }
+    
+    .plans p{
+        font-size: 10px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .plans h5{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .plans a{
+
+        font-size: 12px;
+    }
+    .thirdBigText{
+        font-size: 30px;
+    }
+    .thirdParagraph{
+        font-size: 13px;
+    }
+    .second-img{
+        width: 300px;
+    }
+    .buttonFree{
+        width: 190px;
+        height: 40px;
+        padding: 10px;
+    }
+    .second-img{
+        width: 400px;
+        height: 450px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 50px;
+    }
+    .hone{
+        font-size: 40px;
+    }
+    .user-img{
+        width: 50px;
+        height: 50px;
+    }
+    .name h4{
+        font-size: 15px;
+    }
+    .name h4 span{
+        font-size: 10px;
+    }
+    .cardOfUser p {
+        font-size: 11px;
+    }
+    .brands li img{
+        width: 100px;
+        height: 70px;
+        object-fit:scale-down;
+    }
+    
+    .projectImg{
+        width: 250px;
+    }
+    .nameOfProject{
+        width: 250px;
+    }
+    .stateticts li h1{
+        font-size: 60px;
+    }
+    .stateticts h6{
+        font-size: 12px;
+    }
+    .newsCard{
+        width: 170px;
+        height: 340px;
+    }
+    .news-img{
+        width: 150px;
+    }
+    .joinContact{
+        width: 600px;
+    }
+}
+
+ @media only screen and (max-width:830px){
+    .second-img{
+        width: 330px;
+        height: 420px;
+        border-top-right-radius: 100px;
+    }
+ }
+ 
+@media only screen and (max-width:767px){
+    .stateticts li {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 100px;
+    }
+    .borderOfstateticts{
+        height: 50px;
+    }
+    .stateticts li h1{
+        font-size: 50px;
+    }
+    .stateticts li h6{
+        font-size: 10px;
+    }
+    .first-text h1{
+        font-size: 40px;
+    }
+    .first-text p {
+        font-size: 12px;
+    }
+    .arrow{
+        padding: 4px;
+    }
+    .thirdBigText{
+        text-align: center;
+        font-size: 40px;
+    }
+    .third-text{
+        text-align: center;
+    }
+    .call{
+        display: flex;
+        justify-content: center;
+    }   
+    .second-img{
+        width: 500px;
+        height: 500px;
+    }
+    .users{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardOfUser{
+    margin-bottom: 20px;
+    padding: 30px;
+    }
+    .cardOfUser h4{
+        font-size: 20px;
+    }
+    .cardOfUser h4 span{
+        font-size: 13px;
+    }
+    .cardOfUser p {
+        font-size: 15px;
+    }
+    .brands li img{
+        width: 80px;
+        height: 70px;
+        object-fit: scale-down;
+    }
+    .projectmain{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+ 
+    .projectImg{
+        border-radius: 100px;
+    }
+    .joinContact{
+        width: 500px;
+    }
+    .newsCard h4{
+        font-size: 15px;
+    }
+    .date{
+        font-size: 12px;
+    }
+    .news-button{
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+    }
+    .newsCard{
+        height: 270px;
+    }
+}
+@media only screen and (max-width:520px){
+    .first-text{
+        transform: translate(100px,-300px);
+    }
+    .first-img{
+        height: 550px;
+    }
+    .newsCard{
+        margin-left: 150px;
+        margin-bottom: 20px;
+        
+    }
+    .second-img{
+        width: 400px;
+    }
+    .joinContact{
+        width: 350px;
+    }
+} 
+
+@media only screen and (max-width:426px){
+ 
+    .second-img{
+        width: 300px;
+        height: 400px;
+    }
+    .joinContact{
+        width: 350px;
+    }
+    .first-img{
+        height: 300px;
+    }
+    .first-text{
+        transform: translate(60px,-250px);
+    }
+    .first-text h1{
+        font-size: 30px;
+    }
+    .first-text p{
+        font-size: 10px;
+    }
+    .brands img{
+        display: none;
+    }
+    .news-text p{
+        font-size: 10px;
+    }
+    .newsCard{
+        margin-left: 120px;
+        margin-bottom: 20px;
+        
+    }
+    .stateticts li {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .stateticts li h1 {
+        font-size: 30px;
+    }
+    
+}
+
+
+ 
+@media only screen and (max-width:376px){           
+    .stateticts li{
+        padding: 10px;
+    }
+    .newsCard{
+        margin-left: 100px;
+    }
+} 

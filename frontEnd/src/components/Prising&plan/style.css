@@ -1,0 +1,200 @@
+.firstimg{
+    width: 100%;
+ }
+
+ .prisingPlanText{
+    background-color: white;
+    width: 400px;
+    border-radius: 37px 37px 0px 0px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -130px;
+ }
+
+ .prisingPlanText h1{
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .firstSection{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+ }
+
+ .prisingDiv{
+    background-color: #F4F0EC;
+    border-radius: 33px;
+    height: 500px;
+    margin-bottom: 100px;
+ }
+  
+ .perisingtag{
+    padding-top: 50px;
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 25px;
+ }
+
+ .prize span{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+.mpp{
+   width: 180px;
+   background-color: #292F36;
+   padding: 7px 10px;
+   color: white;
+   border-radius: 15px;
+   font-weight: 600;
+   position: absolute;
+   transform: translate(34%, -100%);
+}
+
+.prize2 span{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+ .prize{
+    font-size: 65px;
+    font-family: 'jost';
+    font-weight: 600;
+ }
+ .prize2{
+     font-size: 65px;
+    font-family: 'jost';
+    font-weight: 600;
+   color: #CDA274;
+ }
+ .time{
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+ }
+
+ .prisingDiv li{
+    font-size: 13px;
+    line-height: 35px;
+ }
+
+ .buttons{
+    margin-top: 25px;
+    border: 0px solid transparent;
+    background-color: #CDA274;
+    padding: 12px 15px;
+    border-radius: 18px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 10px 20px 0 rgba(21, 21, 21, 0.35);
+ }
+
+ .arrow{
+   color: #292F36;
+    padding: 2px;
+ }
+
+ .hii{
+   margin-top: 25px;
+   border: 0px solid transparent;
+   background-color: #292F36;
+   padding: 12px 15px;
+   border-radius: 18px;
+   color: white;
+   font-weight: 600;
+   box-shadow: 0 10px 20px 0 rgba(21, 21, 21, 0.35);
+ }
+.arrow2{
+   color: #CDA274;
+   padding: 2px;
+}
+
+@media only screen and (max-width:1235px){
+ 
+   .mpp{
+     transform: translate(38%, -100%);
+     width: 150px;
+     font-size: 11px;
+  }
+} 
+
+ @media only screen and (max-width:1025px){
+    .prisingPlanText{
+        height: 110px;
+        margin-top: -110px;
+        width: 370px;
+    }
+    .mpp{
+      transform: translate(23%, -100%);
+      width: 150px;
+      font-size: 11px;
+   }
+ }
+
+ @media only screen and (max-width:769px){
+    .prisingPlanText{
+        height: 100px;
+        margin-top: -100px;
+        width: 350px;
+    }
+    .prisingDiv{
+      height: 530px;
+    }
+    .mpp{
+      transform: translate(15%, -100%);
+      width: 120px;
+      font-size: 10px;
+   }
+ }
+
+ @media only screen and (max-width:426px){
+    .prisingPlanText{
+        height: 70px;
+        margin-top: -70px;
+        width: 280px;
+    }
+    .mpp{
+      transform: translate(41%, -100%);
+      width: 220px;
+      font-size: 15px;
+   }
+ }
+
+ @media only screen and (max-width:376px){
+    .prisingPlanText{
+        height: 60px;
+        margin-top: -60px;
+        width: 250px;
+    }
+
+    .prisingPlanText h1{
+        font-size: 20px;
+    }
+
+    .prisingPlanText h6{
+        font-size: 15px;
+    }
+    .firstimg{
+        height: 100px;
+    }
+    .mpp{
+      transform: translate(28%, -100%);
+      width: 220px;
+      font-size: 15px;
+   }
+ }
+
+ @media only screen and (max-width:321px){
+   .mpp{
+      transform: translate(18%, -100%);
+   }
+ }

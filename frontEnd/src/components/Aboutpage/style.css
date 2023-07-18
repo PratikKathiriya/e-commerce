@@ -1,0 +1,493 @@
+ .aboutFirstImage {
+     width: 100%;
+ }
+
+ .aboutFirstSection {
+     width: 400px;
+     height: 651px;
+     background-color: white;
+     border-radius: 37px 37px 0px 0px;
+     position: absolute;
+     transform: translate(550px, -140px);
+ }
+
+ .aboutFirstSection h1 {
+     font-family: 'jost';
+     font-size: 50px;
+     font-weight: 600;
+ }
+
+ .aboutDirection {
+     color: #4D5053;
+     margin-top: -13px;
+ }
+
+ .about {
+     margin-top: 30px;
+ }
+
+ .aboutlines {
+     margin-top: 400px;
+ }
+
+ .aboutline {
+     position: absolute;
+     font-size: 30px;
+     font-style: italic;
+     font-family: 'jost';
+     font-weight: 600;
+     width: 600px;
+     transform: translate(-100px, -100px);
+ }
+
+ .aboutlines h5 {
+     padding-top: 50px;
+ }
+
+ .quoteIcon {
+     font-size: 60px;
+ }
+
+ .bigBorder {
+     border: 25px solid #F4F0EC;
+     margin-top: 160px;
+     width: 700px;
+     height: 350px;
+     border-radius: 70px;
+ }
+ .beforeafter{
+    margin-top: 300px;
+ }
+
+ .beforeImg{
+    border-radius: 60px;
+    width: 100%;
+    height: 370px;
+ }
+
+ .afterImg{
+    border-radius: 60px;
+    width: 100%;
+    height: 370px;
+ }
+
+ .beforeBigtext{
+    font-size:50px;
+    font-family: 'jost';
+    font-weight: 600;
+    padding-bottom: 15px;
+ }
+
+ .afterBigtext{
+    font-size: 50px;
+    font-family: 'jost';
+    font-weight: 600;
+    padding-bottom: 15px;
+ }
+ 
+ .conceptButton{
+    margin-top: 20px;
+    border: 0px solid black;
+    border-radius: 18px;
+    height: 70px;
+    width: 222px;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: #292F36;
+ }
+
+ .portfolioButton{
+    margin-top: 20px;
+    border: 0px solid black;
+    border-radius: 18px;
+    height: 70px;
+    width: 222px;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: #292F36;
+
+ }
+
+ .atext p{
+    font-size: 22px;
+    width: 100%;
+    text-align: justify;
+ }
+
+ .btext p{
+    font-size: 22px;
+    width: 100%;
+    text-align: justify;
+ }
+  
+
+ .peopleone{
+    height: 350px;
+    border-radius: 40px;
+    margin-right: 20px; 
+ }
+ .peopletwo{
+    height: 350px;
+    border-radius: 40px;
+    margin-right: 20px;
+ }
+ .peoplethree{
+    height: 350px;
+    border-radius: 40px;
+ }
+ .peoples{
+    height:700px ;
+    align-items: center;
+ }
+ .peoplesthink{
+    background-color:   #F4F0EC;
+    height: 700px;
+}
+.peoples h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'jost';
+}
+
+.nameInput,
+.emailInput{
+    border: 0px solid transparent ;
+    border-bottom: 1px solid black;
+    margin-right: 30px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+ 
+
+.commentInput{
+    margin-top: 50px;
+    width: 660px;
+    border : 0px solid transparent;
+    border-bottom: 1px solid black;
+}
+
+.inputh1{
+    font-family: 'jost';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.buttonForform{
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #292F36;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    font-weight: 700;
+    color:white;
+}
+.arrow{
+    color: #CDA274;
+}
+
+.inputfield{
+    margin-top:100px ;
+    margin-bottom: 100px;
+}
+
+ @media only screen and (max-width:1485px) {
+     .aboutFirstSection {
+         width: 360px;
+         transform: translate(540px, -140px);
+     }
+ }
+
+ @media only screen and (max-width:1400px) {
+     .aboutFirstSection {
+         transform: translate(500px, -140px);
+     }
+ }
+
+ @media only screen and (max-width:1300px) {
+     .aboutFirstSection {
+         transform: translate(440px, -140px);
+     }
+ }
+
+ @media only screen and (max-width:1235px) {
+     .aboutFirstSection {
+         transform: translate(400px, -140px);
+     }
+     .afterBigtext{
+        font-size: 40px;
+     }
+     .beforeBigtext{
+        font-size: 40px;
+     }
+     .afterImg{
+        width: 550px;
+        height: 300px;
+     }
+     .beforeImg{
+        width: 550px;
+        height: 300px;
+     }
+     .atext p{
+        font-size: 17px;
+     }
+     .btext p{
+        font-size: 17px;
+     }
+     .conceptButton{
+        margin-top: 10px;
+        height: 50px;
+        width: 180px;
+        text-align: center;
+     }
+     .portfolioButton{
+        margin-top: 10px;
+        height: 50px;
+        width: 180px;
+        text-align: center;
+     }
+ }
+
+ @media only screen and (max-width:1100px) {
+     .aboutFirstSection {
+         width: 330px;
+         transform: translate(350px, -140px);
+     }
+ }
+
+ @media only screen and (max-width:1024px) {
+     .aboutFirstSection {
+         transform: translate(320px, -140px);
+     }
+ }
+ @media only screen and (max-width:805px){
+    .aboutFirstSection{
+        transform: translate(210px , -120px);
+    }
+ }
+
+ @media only screen and (max-width:768px) {
+
+     .aboutFirstSection {
+        height: 500px;
+         width: 280px;
+         transform: translate(225px, -80px);
+     }
+
+     .about h1 {
+         font-size: 30px;
+     }
+
+     .about h6 {
+         font-size: 13px;
+     }
+
+     .bigBorder {
+         border: 15px solid #F4F0EC;
+         width: 500px;
+         height: 250px;
+     }
+
+     .aboutlines{
+        margin-top: 350px;
+     }
+        .aboutlines h5{
+            padding-top: 10px;
+            font-size: 15px;
+        }
+     .aboutline{
+        font-size: 20px;
+        width: 400px;
+      transform: translate(-50px, -100px);
+ 
+     }
+     .afterImg{
+        width: 400px;
+        height: 250px;
+     }
+     .beforeImg{
+        width: 400px;
+        height: 250px;
+     }
+
+     .atext p{
+        font-size: 13px;
+     }
+     .btext p{
+        font-size: 13px;
+     }
+     .conceptButton{
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px;
+        height: 40px;
+     }
+     .portfolioButton{
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px;
+        height: 40px;
+     }
+     .beforeafter{
+        margin-top: 100px   ;
+    }
+ }
+
+ @media only screen and (max-width:767px){
+    .afterImg{
+        margin-top: 50px;
+    }
+    .beforeImg{
+        margin-top: 30px;
+    }
+    .atext {
+        text-align: center;
+    }
+    .atext p{
+        text-align: center;
+    }
+    .btext {
+        text-align: center;
+    }
+    .btext p{
+        text-align: center;
+    }
+   
+ }
+
+ @media only screen and (max-width:680px){
+    .aboutFirstSection{
+        width: 240px;
+        transform: translate(200px,-75px);
+    }
+    .aboutline{
+        transform: translate(-70px ,-100px);
+    }
+ }
+ @media only screen and (max-width:426px){
+    .aboutFirstSection{
+        width: 180px;
+        height: 400px;
+        transform: translate(120px,-40px);
+    }
+    .bigBorder{
+        border: 13px solid #f4f0ec;
+        width: 400px;
+        height: 200px;
+    }
+    .aboutlines{
+        margin-top: 300px;
+    }
+    .aboutlines h5{
+        font-size: 13px;
+    }
+    .aboutline{
+        font-size: 15px;
+        width: 300px;
+        transform: translate(-70px,-100px);
+    }
+    .beforeafter{
+        margin-top: 100px;
+    }
+    .peoples{
+        height: 900px;
+    }
+    .peoplesthink{
+        height: 1260px;
+    }
+    .peopleone{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .peopletwo{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .peoplethree{
+        margin-bottom: 30px;
+    }
+    .peoples h1{
+        font-size: 40px;
+    }
+    .commentInput{
+        width: 330px;
+    }
+    .inputh1{
+        font-size: 30px;
+    }
+ }
+
+ @media only screen and (max-width:376px){
+    .aboutFirstSection{
+        width: 150px;
+        height: 370px;
+        transform: translate(110px,-40px);
+    }
+    .bigBorder{
+        border: 13px solid #f4f0ec;
+        width: 300px;
+        height: 180px;
+    }
+    .aboutlines{
+        margin-top: 250px;
+    }
+    .aboutlines h5{
+        padding-top:00px;
+        font-size: 13px;
+    }
+    .aboutline{
+        font-size: 15px;
+        width: 250px;
+        transform: translate(-60px,-100px);
+    }
+    .afterImg{
+        width: 300px;
+        height: 200px;
+    }
+    .beforeImg{
+        width: 300px;
+        height: 200px;
+    }
+    .beforeafter{
+        margin-top: 100px;
+    }
+}
+ 
+ @media only screen and (max-width:321px){
+    .aboutline{
+        width: 250px;
+        transform: translate(-50px,-100px);
+    }
+    .aboutFirstSection{
+        height: 300px;
+        transform: translate(75px,-40px);
+    }
+    .aboutlines{
+        margin-top: 180px;
+    }
+    .bigBorder{
+        margin-top: 90px;
+    }
+    .peoplesthink{
+        height: 1290px;
+    }
+    .commentInput{
+        width: 300px;
+    }
+    .inputh1{
+        font-size: 22px;
+    }
+    .nameInput,
+    .emailInput{
+        margin-right: 0px;
+    }
+
+ }
+
+ 
+  

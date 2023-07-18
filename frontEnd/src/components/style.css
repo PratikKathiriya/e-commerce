@@ -1,0 +1,72 @@
+.firstimg{
+    width: 100%;
+ }
+
+ .servicesingleText{
+    background-color: white;
+    width: 400px;
+    border-radius: 37px 37px 0px 0px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -130px;
+ }
+
+ .servicesingleText h1{
+    font-family: 'jost';
+    font-weight: 600;
+ }
+
+ .firstSection{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+ }
+  
+ 
+
+ @media only screen and (max-width:1025px){
+    .servicesingleText{
+        height: 110px;
+        margin-top: -110px;
+        width: 370px;
+    }
+ }
+
+ @media only screen and (max-width:769px){
+    .servicesingleText{
+        height: 100px;
+        margin-top: -100px;
+        width: 350px;
+    }
+ }
+
+ @media only screen and (max-width:426px){
+    .servicesingleText{
+        height: 70px;
+        margin-top: -70px;
+        width: 280px;
+    }
+ }
+
+ @media only screen and (max-width:376px){
+    .servicesingleText{
+        height: 60px;
+        margin-top: -60px;
+        width: 250px;
+    }
+
+    .servicesingleText h1{
+        font-size: 20px;
+    }
+
+    .servicesingleText h6{
+        font-size: 15px;
+    }
+    .firstimg{
+        height: 100px;
+    }
+ }
+
